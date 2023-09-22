@@ -1,0 +1,41 @@
+Arguments: 
+  /home/manolo/.nvm/versions/node/v18.17.0/bin/node /home/manolo/.nvm/versions/node/v18.17.0/bin/yarn add axios dotent amqplib
+
+PATH: 
+  /home/manolo/.nvm/versions/node/v18.17.0/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/manoe/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PowerShell/7-preview/preview:/Docker/host/bin:/mnt/c/Users/manoe/.console-ninja/.bin:/mnt/c/Users/manoe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/manoe/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/manoe/AppData/Local/Programs/Hyper/resources/bin:/mnt/c/Users/manoe/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/manoe/go/bin:/home/manolo/go/bin:/home/linuxbrew/.linuxbrew/Cellar/go/1.20.7/libexec/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/dotent: Not found
+      at params.callback [as _callback] (/home/manolo/.nvm/versions/node/v18.17.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/manolo/.nvm/versions/node/v18.17.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/home/manolo/.nvm/versions/node/v18.17.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/home/manolo/.nvm/versions/node/v18.17.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "bitcoin-candle-generator",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

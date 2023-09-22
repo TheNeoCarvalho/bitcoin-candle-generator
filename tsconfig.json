@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES6",
+      "ES5"
+    ],
+    "target": "ES5",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  }
+}

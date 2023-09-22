@@ -1,0 +1,25 @@
+version: "3.2"
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: 'rabbitmq'
+    environment:
+      - RABBITMQ_DEFAULT_USER=dev
+      - RABBITMQ_DEFAULT_PASS=dev
+    ports:
+      - 5672:5672
+      - 15672:15672
+    expose:
+      - "5672"
+      - "15672"
+    volumes:
+      - ~/docker-conf/rabbiitmq/data/:/var/lib/rabbitmq/
+      - ~/docker-conf/rabbiitmq/log/:/var/log/rabbitmq
+    networks:
+      - rabbitmq_go_net
+
+networks:
+  rabbitmq_go_net:
+    driver: bridge
+    
